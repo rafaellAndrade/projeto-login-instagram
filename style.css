@@ -112,3 +112,21 @@ body {
     justify-content: space-around;
     padding-top: 1.1rem;
 }
+
+@media (max-width: 1030px) {
+    .content{     
+        margin: 0 2rem;      
+    }
+}
+
+@media (max-width: 660px) {
+ 
+    .cellphone-box {
+        display: none;
+    }
+
+    .content {
+        margin-top: 0;
+        padding: 0;
+    }
+}
